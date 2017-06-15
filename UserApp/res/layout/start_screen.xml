@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="AUTOBUSU ATRAŠANĀS VIETAS NOTEIKŠANAS APLIKĀCIJA"
+            android:id="@+id/textView"
+            android:textAlignment="center"
+            android:textSize="@dimen/virsraksts"
+            android:textStyle="bold"
+            android:typeface="sans"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="60dp"/>
+    <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Atrast autobusu"
+            android:id="@+id/button"
+            android:layout_alignLeft="@+id/textView"
+            android:layout_alignParentBottom="true"
+            android:layout_alignRight="@+id/textView"
+            android:onClick="atrastAutobusu"/>
+</RelativeLayout>

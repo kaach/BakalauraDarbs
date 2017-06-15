@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="StartGUI">
+  <grid id="27dc6" binding="panel1" default-binding="true" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+    <constraints>
+      <xy x="20" y="20" width="205" height="81"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <component id="63400" class="javax.swing.JTextField" binding="textField1" default-binding="true">
+        <constraints/>
+        <properties>
+          <preferredSize width="45" height="22"/>
+        </properties>
+      </component>
+      <component id="5db6c" class="javax.swing.JButton" binding="saktButton">
+        <constraints/>
+        <properties>
+          <text value="Sākt"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/addPointsVirsraksts"
+            android:id="@+id/textView" android:layout_alignParentTop="true" android:layout_alignParentLeft="true"/>
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/soferaID"
+            android:id="@+id/soferaid" android:layout_below="@+id/textView" android:layout_alignParentLeft="true"/>
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/laikaID"
+            android:id="@+id/marsrutaid" android:layout_below="@+id/soferaid" android:layout_alignParentLeft="true"/>
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/ReisaID"
+            android:id="@+id/reissid" android:layout_below="@+id/marsrutaid" android:layout_alignParentLeft="true"/>
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/buttonSakt"
+            android:id="@+id/buttonStartPoints"
+            android:onClick="startPoints"
+            android:layout_alignLeft="@+id/textView"
+            android:layout_above="@+id/stopButton"
+            android:layout_alignRight="@+id/textView"/>
+    <Button
+            android:layout_width="246dp"
+            android:layout_height="wrap_content"
+            android:text="@string/buttonBeigt"
+            android:id="@+id/stopButton"
+            android:layout_alignLeft="@+id/textView"
+            android:layout_alignParentBottom="true"
+            android:layout_alignRight="@+id/textView"
+            android:onClick="stopPoints"/>
+</RelativeLayout>

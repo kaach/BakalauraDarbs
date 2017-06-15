@@ -1,0 +1,5 @@
+INDEX VERSION 1.126
+C:\Users\Katrina\Dropbox\Bakalaura darbs\Aplikacijas\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3487818402.index
+\NutritionAndDietCalc\src
+C:\Users\Katrina\Dropbox\Bakalaura darbs\Aplikacijas\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2663155513.index
+\NutritionAndDietCalc\src

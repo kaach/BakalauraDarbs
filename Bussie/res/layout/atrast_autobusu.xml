@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="IZVĒLIES MARŠRUTU"
+            android:id="@+id/textView" android:layout_alignParentLeft="true" android:layout_alignParentTop="true"
+            android:textSize="@dimen/virsraksts"/>
+    <Spinner
+            android:layout_width="65dp"
+            android:layout_height="55dp"
+            android:id="@+id/spinnerMarsruts"
+            android:layout_alignLeft="@+id/textView" android:layout_below="@+id/textView"
+            android:layout_alignParentRight="true"/>
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="IZVĒLIES LAIKU"
+            android:id="@+id/buttonLaiks" android:layout_alignLeft="@+id/textView" android:layout_below="@+id/spinnerMarsruts"
+            android:layout_alignRight="@+id/spinnerMarsruts" android:onClick="readLaiki"/>
+    <Spinner
+            android:layout_width="wrap_content"
+            android:layout_height="55dp"
+            android:id="@+id/spLaiks" android:layout_alignLeft="@+id/textView" android:layout_below="@+id/buttonLaiks"
+            android:layout_alignRight="@+id/spinnerMarsruts" android:visibility="invisible"/>
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="IZVĒLĒTIES DATUMU"
+            android:id="@+id/button" android:layout_alignLeft="@+id/textView" android:layout_alignParentBottom="true"
+            android:layout_alignRight="@+id/spinnerMarsruts" android:onClick="toDateActivity"/>
+</RelativeLayout>

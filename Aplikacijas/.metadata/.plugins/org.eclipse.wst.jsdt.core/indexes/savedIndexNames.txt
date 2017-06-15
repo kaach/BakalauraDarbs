@@ -1,0 +1,7 @@
+INDEX VERSION 1.3+C:\Users\Katrina\Dropbox\Bakalaura darbs\Aplikacijas\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+1525856775.index
+2319077050.index
+2752211109.index
+3595328450.index
+607314623.index
+2428882128.index

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Bussie autobusiem</string>
+    <string name="marsrutsVirsraksts">Maršruta izvēle un jauna reisa reģistrācija</string>
+    <string name="izveliesMarsrutu">Izvēlieties maršrutu</string>
+    <string name="buttonPievienoReisu">Pievienot jaunu reisu</string>
+    <string name="addPointsVirsraksts">Autobusa atrašanās vietas reģistrācija</string>
+    <string name="soferaID">Šofera ID:</string>
+    <string name="marsrutaID">Maršruta ID:</string>
+    <string name="ReisaID">Reisa ID:</string>
+    <string name="buttonSakt">Sākt reģistrēt punktus</string>
+    <string name="buttonBeigt">Beigt reģistrēt punktus</string>
+    <string name="mainvirsraksts">Ieeja punktu reģistrēšanas sistēmā</string>
+    <string name="parole">Parole</string>
+    <string name="buttonIeiet">Ieiet</string>
+    <string name="nepareizsIDvaiParole">Nepareizs Šofera ID vai parole</string><string name="laikaID">Laika ID:</string>
+
+</resources>

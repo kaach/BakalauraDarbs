@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Maršruta izvēle un jauna reisa reģistrācija"
+            android:id="@+id/textView" android:layout_alignParentTop="true" android:layout_centerHorizontal="true"
+            android:textAlignment="center" android:singleLine="false"/>
+    <Spinner
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/spinnerMarsruts"
+            android:layout_below="@+id/textView2"
+            android:layout_alignParentLeft="true"/>
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Izvēlieties maršrutu"
+            android:id="@+id/textView2" android:layout_below="@+id/textView" android:layout_alignParentLeft="true"
+            android:layout_marginTop="31dp"/>
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pievienot jaunu reisu"
+            android:id="@+id/buttonJaunsReiss"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:onClick="addReiss"/>
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:id="@+id/textView3" android:layout_centerVertical="true" android:layout_alignParentLeft="true"/>
+</RelativeLayout>
